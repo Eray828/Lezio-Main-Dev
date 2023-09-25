@@ -12,6 +12,7 @@ import "@aws-amplify/ui-react/styles.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ restaurantList }) {
+  console.log("Hellooo")
   return (
     <main className="mx-24">
       <h1>Hekooo</h1>
